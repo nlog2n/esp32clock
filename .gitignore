@@ -3,3 +3,5 @@ managed_components/
 sdkconfig
 sdkconfig.old
 .DS_Store
+.clangd
+.vscode/
