@@ -1,0 +1,5 @@
+dependencies:
+  esp32_p4_function_ev_board:
+    version: ^5.2.3
+  espressif/esp_wifi_remote: ^1.6.5
+description: Flip clock for ESP32-P4-Function-EV-Board

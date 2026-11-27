@@ -1,0 +1,11 @@
+menu "ESP32 clock"
+    config ESP32CLOCK_WIFI_SSID
+        string "Wi-Fi SSID"
+        default ""
+    config ESP32CLOCK_WIFI_PASSWORD
+        string "Wi-Fi password (empty for an open network)"
+        default ""
+    config ESP32CLOCK_NTP_SERVER
+        string "NTP server"
+        default "pool.ntp.org"
+endmenu
